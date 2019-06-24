@@ -5,6 +5,7 @@ if i < 2
 (2...i).each do |factor| 
   return false if i % factor == 0
 end
+end
 true
 end
 
