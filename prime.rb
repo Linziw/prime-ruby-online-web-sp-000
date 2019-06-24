@@ -2,7 +2,7 @@
 def prime?(i)
 if i < 2
   return false
-(2...i).each do |factor| 
+elsif (2...i).each do |factor| 
   return false if i % factor == 0
 end
 end
